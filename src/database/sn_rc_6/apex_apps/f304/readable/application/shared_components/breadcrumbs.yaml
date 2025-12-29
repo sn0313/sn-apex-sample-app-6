@@ -1,0 +1,49 @@
+---
+- # ====== Breadcrumb: Breadcrumb ==============================
+  id: 32482890187137676
+  identification: 
+    name: Breadcrumb
+
+  entries: 
+  - # ====== Entry: RC Fix Page ==================================
+    id: 11395941050420731
+    identification: 
+      name: RC Fix Page
+      page-number: 2
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:2:&APP_SESSION.::&DEBUG.:::'
+        page: 2 # RC Fix Page
+
+  - # ====== Entry: Home =========================================
+    id: 32483127536137677
+    identification: 
+      name: Home
+      page-number: 1
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:1:&APP_SESSION.::&DEBUG.:::'
+        page: 1 # Home
+
+  - # ====== Entry: Administration ===============================
+    id: 32675508218147647
+    identification: 
+      name: Administration
+      page-number: 10000
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:10000:&APP_SESSION.::&DEBUG.:::'
+        page: 10000 # Administration
+
