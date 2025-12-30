@@ -5,7 +5,7 @@
     name: Navigation Menu
 
   subscription: 
-    version-number: 45909512194917
+    version-number: 45909512355680
 
   source: 
     type: Static Values
@@ -31,6 +31,33 @@
       target: 
         url: 'f?p=&APP_ID.:3:&APP_SESSION.::&DEBUG.:::'
         page: 3 # Dev Page
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: RC Fix Page ==================================
+    id: 11404601686505288
+    label: 
+      label: RC Fix Page
+
+    icon: 
+      image/icon-css-classes: fa-file-o
+
+    layout: 
+      sequence: 30
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 2
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:2:&APP_SESSION.::&DEBUG.:::'
+        page: 2 # RC Fix Page
 
     click-counting: 
       count-clicks: false
